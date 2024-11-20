@@ -1,0 +1,217 @@
+/* Estilos globais */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8f4; /* Fundo claro ecológico */
+    color: #3c3c3c; /* Texto primário */
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50; /* Verde sustentável */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom: 2px solid white;
+    color: #dff2df; /* Verde mais claro */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.85rem;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main .conteudo-principal {
+    text-align: center;
+}
+
+main .conteudo-principal h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+main .conteudo-principal p {
+    font-size: 1.2rem;
+    color: #606060;
+    margin-bottom: 1.5rem;
+}
+
+.botoes-navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #388E3C; /* Verde mais escuro */
+}
+
+/* Tabelas (para páginas de monitoramento e alertas) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+table thead {
+    background-color: #f0f9f0; /* Fundo claro ecológico */
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #eef6ee; /* Verde muito claro */
+}
+
+table tr:hover {
+    background-color: #e1f2e1; /* Verde claro suave */
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    header nav ul {
+        gap: 1rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    main .conteudo-principal h1 {
+        font-size: 2rem;
+    }
+
+    main .conteudo-principal p {
+        font-size: 1rem;
+    }
+
+    .botoes-navegacao {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    main .conteudo-principal h1 {
+        font-size: 1.8rem;
+    }
+
+    main .conteudo-principal p {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    main .conteudo-principal h1 {
+        font-size: 1.5rem;
+    }
+
+    main .conteudo-principal p {
+        font-size: 0.8rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.5rem;
+    }
+}
+
+
+
