@@ -45,3 +45,7 @@ Recomendações personalizadas para reduzir desperdícios.
 Alertas de consumo em níveis críticos.
 Interface responsiva e sustentável com design minimalista.
 O sistema é integrado a um back-end em Spring Boot, garantindo dados em tempo real e acessibilidade em diversos dispositivos.
+
+link do video pitch:
+
+https://youtu.be/n4TUSyBLvaE
