@@ -1,4 +1,4 @@
-Naiara Aparecida da Silva Cruz
+Naiara Aparecida da Silva Cruz -
 Thais da Silva Pereira 
 
 Rodar o Back-End:
