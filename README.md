@@ -1,3 +1,6 @@
+Naiara Aparecida da Silva Cruz
+Thais da Silva Pereira 
+
 Rodar o Back-End:
 
 Certifique-se de ter instalado:
